@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-btn-primary {
+  background-color: #2faae1;
+  box-shadow: none;
+  color: white;
+  padding: 4px 12px;
+}
+.custom-pagination .ant-pagination-options-size-changer {
+  background-color: #f0f0f0;
+}
+
+.custom-pagination
+  .ant-pagination-options-size-changer
+  .ant-select-selection-item {
+  background-color: #2faae1;
+  color: #ffffff;
+}
+.centered-icon-button .anticon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ant-modal-content {
+  max-width: 100%;
+}
+.ant-statistic {
+  font-size: x-small;
+}
